@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 36px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 24px;
+}
+
+.gallery-item {
+  flex-basis: calc ((100% - 48px) / 3);
+}
+
+.gallery-link:hover {
+  cursor: url("../img/bxs_hand-down.svg") 44 44, auto;
+}
+
+.basicLightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
